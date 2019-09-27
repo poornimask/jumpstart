@@ -8,6 +8,7 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.4;
 }
+
 h2 {
   font-size: 1.7rem;
   font-weight: bold;
@@ -22,6 +23,7 @@ h3 {
 img {
   width: 100%;
 }
+
 /* Bootstrap Overrides */
 
 .navbar-default .navbar-nav > .active > a,
@@ -78,6 +80,23 @@ img {
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
+
+.background-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+.background-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+
+.background-flowers {
+  background-image: url("../images/jumbotron-flowers.jpg");
+}
+
+.background-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+
 .jumbotron h1 {
   font-family: "Monoton", sans-serif;
   font-size: 7.1rem;
@@ -88,12 +107,13 @@ img {
   margin: auto;
 }
 
-.carousel-button {
+.relative-wrapper {
   position: relative;
   top: -16rem;
   width: 100%;
   text-align: center;
 }
+
 @media only screen and (max-width: 767px) {
   .jumbotron h1 {
     font-size: 5.7rem;
@@ -105,19 +125,7 @@ img {
     font-size: 4rem;
   }
 }
-/* first carousel*/
-.jumbotron-bike{
-	background-image: url("../images/jumbotron-bike.jpg");
-}
-.jumbotron-beer{
-	background-image: url("../images/jumbotron-beer.jpg");
-}
-.jumbotron-flowers{
-	background-image: url("../images/jumbotron-flowers.jpg");
-}
-.jumbotron-duffel{
-	background-image: url("../images/jumbotron-duffel.jpg");
-}
+
 /* Project Image Containers */
 
 .image-container {
